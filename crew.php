@@ -9,6 +9,7 @@
 			die('Erreur : ' . $e->getMessage());
 	}
 	
+	
 	//ajout d'un nouveau membre
 	if(isset($_POST['add'])) {
 		$name = strip_tags($_POST['name']);
